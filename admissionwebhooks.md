@@ -11,4 +11,4 @@
      - timeoutseconds is recommended to 2
   - good to have a validating web hooks
       - example with the always pull and side car web hook.
-  - Avoid working on the kube-system namespace
+  - Avoid working on the kube-system namespace (use namespace selector)
