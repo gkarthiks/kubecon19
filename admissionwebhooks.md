@@ -10,5 +10,5 @@
   - Availability 
      - timeoutseconds is recommended to 2
 
-    good to have a validating web hooks
+  - good to have a validating web hooks
       - example with the always pull and side car web hook.
