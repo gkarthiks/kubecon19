@@ -7,3 +7,5 @@
      - v1beta1
      - v1beta2
      - etc
+  - Availability 
+     - timeoutseconds is recommended to 2
