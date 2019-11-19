@@ -1,0 +1,1 @@
+* Check https://strimzi.io/ for Kafka operator
