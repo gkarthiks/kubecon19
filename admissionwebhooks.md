@@ -12,3 +12,20 @@
   - good to have a validating web hooks
       - example with the always pull and side car web hook.
   - Avoid working on the kube-system namespace (use namespace selector)
+
+
+  # Liberating K8s From Kube Proxy And Iptables
+  - /boot/config is not set with NETFILTER
+  - kube-proxy resets the iptables periodically
+
+# Mitigating Noisy Neighbours: Advanced Container Resource Management - Alexander Kanevskiy, Intel
+ - rsrcctrl
+ - OCI spec
+    • blkio: IOPS / bps throttling
+    • HugePages
+    • Intel® RDT class
+    • Hooks {we can have additional exec hooks with OCI specs.. checkout the pr#1008}
+
+
+# Debugging Live Applications In Kubernetes
+  - 
